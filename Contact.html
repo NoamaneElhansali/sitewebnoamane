@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODELanguage=Contact</title>
+    <link rel="stylesheet" href="stylecontact.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="codelang"><b class="code">CODE</b><i class="lang">&lt;L<i class="code">a</i>ngu<i class="code">a</i>ge&gt;</i></h1>
+        <nav>
+            <a href="index.html" class="nav" id="Home">Home</a>
+            <a href="Langage.html" class="nav" id="Langage">Langage</a>
+            <a href="Logiciel.html" class="nav" id="Logiciel">Logiciel</a>
+            <a href="About.html" class="nav" id="About">About</a>
+            <a href="Contact.html" class="nav" id="Contact">Contact</a>
+        </nav>
+        <nav>
+            <a href="Contact.html"><button class="login">Login</button></a>
+        </nav>
+        <img src="icon/burger-menu.png" alt="Menu" class="menu" id="menuon" onclick="on()">
+    </header>
+    <div class="menu1" id="menu1">
+        <nav>
+            <img src="icon/cancel.png" alt="Menu" class="menu" id="menuoff" onclick="off()">
+            <a href="index.html" class="nav" id="Home">Home</a><br>
+            <a href="Langage.html" class="nav" id="Langage">Langage</a><br>
+            <a href="Logiciel.html" class="nav" id="Logiciel">Logiciel</a><br>
+            <a href="About.html" class="nav" id="About">About</a><br>
+            <a href="Contact.html" class="nav" id="Contact">Contact</a><br>
+        </nav>
+        <nav>
+            <a href="Contact.html"><button class="login" id="login">Login</button></a>
+        </nav>
+    </div>
+    <section>
+        <article class="article">
+            <div>
+                <h1 class="lang1">ENTRER EN CONTACT</h1>
+                <div class="div1-1">
+                    <div class="div1-1-1">
+                        <img src="images/localisation.png" class="img1">
+                        <p>25 mars,laayon,70000</p>
+                    </div>
+                    <div class="div1-1-2">
+                        <img src="images/appel.png" class="img1">
+                        <p>+212627515235</p>
+                    </div>
+                    <div class="div1-1-3">
+                        <img src="images/sms.png" class="img1">
+                        <p>noamaneelhansali@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="divform">
+                <form class="form">
+                    <label for="name">Name</label><br>
+                    <input type="text"  id="name" placeholder="Enter your Name" class="inp1" required><br>
+                    <label for="email">Email</label><br>
+                    <input type="email"  id="email" placeholder="Enter a vailid email adresse" class="inp1" required><br>
+                    <label for="message">Message</label><br>
+                    <textarea placeholder="Enter your message" id="message" class="inp2" cols="30" rows="10"></textarea><br>
+                    <!-- <input type="text" id="message" placeholder="Enter your message" class="inp2"><br> -->
+                    <input type="checkbox" id="accept">
+                    <label for="accept"><b>I accept the </b><i>Terms of Service</i></label><br>
+                    <input type="submit" value="SOUMETTRE" class="inp3">
+                </form>
+            </div>
+        </article>
+        
+    </section>
+    <footer>
+        <div class="footer1">
+            <h2>Par:Noamane Elhansali</h2>
+            <h3>SOCIAL</h3>
+            <a href="#">Facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">telegram</a>
+            <a href="#">linkedln</a>
+        </div>
+        <div class="footer2">
+            <h1>Boostez votre stratégie web</h1>
+            <p>Recevez nos conseils, tutoriels et sélections d'outils directement dans votre boîte mail.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Votre adresse email" class="in1" required>
+                <a href="mailto:noamaneelhansali@gmail.com?subject=Hello Noamane elhansali&body=Hello, my friend!
+
+                I'd like to thank you for the fantastic topic you wrote about programming languages. It was truly interesting and enriching.
+                
+                I'm genuinely excited to learn more about a specific topic: how to apply programming language concepts in developing artificial intelligence applications. Could you assist me in getting more information about this subject?
+                
+                I hope you have some time to help, and I'd be grateful for any guidance or resources you can provide. Thank you in advance for everything you offer!
+                
+                Best regards."><input type="button" value="RECEVOIR LA NEWSLETTER" class="in2"></a>
+            </form>
+        </div>
+    </footer>
+    <script>
+        function on(){
+            document.getElementById("menu1").style.height="90%"
+            document.getElementById("menuon").style.display="none"
+        }
+        function off(){
+            document.getElementById("menu1").style.height="0%"
+            document.getElementById("menuon").style.display="block"
+        }
+    </script>
+</body>
+</html>

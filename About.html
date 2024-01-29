@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CODELanguage=About</title>
+    <link rel="stylesheet" href="styleAbout.css">
+</head>
+<body>
+    <header class="header">
+        <h1 class="codelang"><b class="code">CODE</b><i class="lang">&lt;L<i class="code">a</i>ngu<i class="code">a</i>ge&gt;</i></h1>
+        <nav>
+            <a href="index.html" class="nav" id="Home">Home</a>
+            <a href="Langage.html" class="nav" id="Langage">Langage</a>
+            <a href="Logiciel.html" class="nav" id="Logiciel">Logiciel</a>
+            <a href="About.html" class="nav" id="About">About</a>
+            <a href="Contact.html" class="nav" id="Contact">Contact</a>
+        </nav>
+        <nav>
+            <a href="Contact.html"><button class="login">Login</button></a>
+        </nav>
+        <img src="icon/burger-menu.png" alt="Menu" class="menu" id="menuon" onclick="on()">
+    </header>
+    <div class="menu1" id="menu1">
+        <nav>
+            <img src="icon/cancel.png" alt="Menu" class="menu" id="menuoff" onclick="off()">
+            <a href="index.html" class="nav" id="Home">Home</a><br>
+            <a href="Langage.html" class="nav" id="Langage">Langage</a><br>
+            <a href="Logiciel.html" class="nav" id="Logiciel">Logiciel</a><br>
+            <a href="About.html" class="nav" id="About">About</a><br>
+            <a href="Contact.html" class="nav" id="Contact">Contact</a><br>
+        </nav>
+        <nav>
+            <a href="Contact.html"><button class="login" id="login">Login</button></a>
+        </nav>
+    </div>
+    <section>
+        <article class="article1">
+            <div class="div1">
+                <h1 class="lang1">Langage de programmation</h1>
+            </div>
+            <div class="div2">
+                     <div>
+                          <p><b>Un langage de programmation</b> est un langage informatique, permettant à un être humain d'écrire un code source qui sera analysé par une machine, généralement un ordinateur. Le code source subit ensuite une transformation ou une évaluation dans une forme exploitable par la machine, ce qui permet d'obtenir un programme. Les langages permettent souvent de faire abstraction des mécanismes de bas niveau de la machine, de sorte que le code source représentant une solution puisse être écrit et compris par un être humain.</p>
+                     </div>
+                  <div>
+                       <img src="images/Projectimg.webp" class="img1">
+                  </div>
+             </div>
+             <div class="div3">
+                <p>L'activité de rédaction du code source d'un programme est nommée programmation. Elle consiste en la mise en œuvre de techniques d'écriture et de résolution d'algorithmes informatiques, lesquelles sont fondées sur les mathématiques. À ce titre, un langage de programmation se distingue du langage mathématique par sa visée opérationnelle (une fonction et par extension, un programme, doit retourner une valeur), de sorte qu'un « langage de programmation est toujours un compromis entre la puissance d'expression et la possibilité d'exécution ».</p>
+             </div>
+             <h1 class="lang1-1">Les avantages de la programmation</h1>
+             <div class="div4">
+                        <div class="div4-1">
+                            <img src="images/avnt1.jpg" class="imgavnt">
+                            <h4>Résolution de problèmes</h4>
+                            <p>L’enfant qui programme doit sans cesse réfléchir à ce qu’il doit faire en premier. Il faut organiser sa pensée afin de trouver une façon efficace de résoudre le problème posé via un algorithme. Grâce à l’apprentissage du langage informatique, cette procédure devient par la suite une habitude qui permet à l’enfant de réfléchir, faire, et avancer par lui-même.</p>
+                       </div>
+                       <div class="div4-2">
+                        <img src="images/avnt2.jpg" class="imgavnt">
+                        <h4>Créativité et pensée latérale</h4>
+                        <p>Tous les programmeurs ont des approches et des solutions différentes, même si les programmes semblent conduire au même résultat. Plus les programmes deviennent complexes, plus les enfants développent des solutions créatives et personnelles. Ils façonnent ainsi leur propre « style » de résolution des problèmes.</p>
+                       </div>
+                       <div class="div4-3">
+                        <img src="images/avnt3.jpg" class="imgavnt">
+                        <h4>Pensée critique</h4>
+                        <p>Parfois (souvent !), le programme ne fonctionne pas du premier coup. L’enfant se pose donc la question : “est-ce correct?”, analyse de façon critique son raisonnement, le teste et trouve la solution au problème. Cette façon de critiquer son raisonnement est nécessaire dans l’apprentissage du langage informatique ainsi que la vie de tous les jours.</p>
+                       </div>
+             </div>
+        </article>
+    </section>
+    <footer>
+        <div class="footer1">
+            <h2>Par:Noamane Elhansali</h2>
+            <h3>SOCIAL</h3>
+            <a href="#">Facebook</a>
+            <a href="#">instagram</a>
+            <a href="#">telegram</a>
+            <a href="#">linkedln</a>
+        </div>
+        <div class="footer2">
+            <h1>Boostez votre stratégie web</h1>
+            <p>Recevez nos conseils, tutoriels et sélections d'outils directement dans votre boîte mail.</p>
+            <form action="#" method="post">
+                <input type="email" placeholder="Votre adresse email" class="in1">
+                <a href="mailto:noamaneelhansali@gmail.com?subject=Hello Noamane elhansali&body=Hello, my friend!
+
+                I'd like to thank you for the fantastic topic you wrote about programming languages. It was truly interesting and enriching.
+                
+                I'm genuinely excited to learn more about a specific topic: how to apply programming language concepts in developing artificial intelligence applications. Could you assist me in getting more information about this subject?
+                
+                I hope you have some time to help, and I'd be grateful for any guidance or resources you can provide. Thank you in advance for everything you offer!
+                
+                Best regards."><input type="button" value="RECEVOIR LA NEWSLETTER" class="in2"></a>
+            </form>
+        </div>
+    </footer>
+    <script>
+        function on(){
+            document.getElementById("menu1").style.height="90%"
+            document.getElementById("menuon").style.display="none"
+        }
+        function off(){
+            document.getElementById("menu1").style.height="0%"
+            document.getElementById("menuon").style.display="block"
+        }
+    </script>
+</body>
+</html>
